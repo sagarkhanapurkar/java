@@ -12,11 +12,11 @@ class Mathx
 
     System.out.print("How many pages does the book has?");  
 
-    float numberOfPages= sc.nextInt();  
+    int numberOfPages= sc.nextInt();  
 
     System.out.print("How many pages can you read per day?");  
 
-    float readingRate= sc.nextInt();  
+    int readingRate= sc.nextInt();  
 
     float d = numberOfPages/readingRate;  
 
